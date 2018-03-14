@@ -7,3 +7,12 @@ Follow the instructions [here](http://www.wolinlabs.com/blog/linux.stm32.discove
 
 Modify your Makefile to change STLINK and STM_COMMON to point them to the places you have installed and compiled these tools and libraries.
 
+Run
+
+  $ make
+
+to make the generator.bin file.
+
+  $ make burn
+
+to burn the file to your STM32 Discovery board.
